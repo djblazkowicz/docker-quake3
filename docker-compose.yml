@@ -4,4 +4,4 @@ quake3:
         - "27960:27960/udp"
     volumes:
         - /home/tepes/quake3/baseq3/pak0.pk3:/usr/share/games/quake3/baseq3/pak0.pk3
-        - ./server.cfg:/usr/share/games/quake3/baseq3/server.cfg 
+        - /home/tepes/quake3/server.cfg:/usr/share/games/quake3/baseq3/server.cfg 
