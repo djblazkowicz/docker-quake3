@@ -3,5 +3,5 @@ quake3:
     ports:
         - "27960:27960/udp"
     volumes:
-        - /home/tepes/quake3/baseq3:/usr/share/games/quake3/baseq3/pak0.pk3
+        - /home/tepes/quake3/baseq3/pak0.pk3:/usr/share/games/quake3/baseq3/pak0.pk3
         - ./server.cfg:/usr/share/games/quake3/baseq3/server.cfg 
