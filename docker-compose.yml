@@ -1,4 +1,3 @@
-
 quake3:
     image: inanimate/quake3
     restart: always
